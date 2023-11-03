@@ -12,6 +12,7 @@ export const App = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [searchResult, setSearchResult] = useState('');
   const [page, setPage] = useState(1);
+  // eslint-disable-next-line
   const [totalHits, setTotalHits] = useState(0);
   const [isLoadMore, setIsLoadMore] = useState(false);
   const [isModal, setIsModal] = useState(false);
